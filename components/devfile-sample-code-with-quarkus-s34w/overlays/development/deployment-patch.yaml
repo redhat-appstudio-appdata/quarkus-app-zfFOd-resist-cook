@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-code-with-quarkus-s34w
+  namespace: shebert-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio/user-workload@sha256:d7d307d456cc7b0a463464e16d3301a874bc790a40e63593e729bbf7007d0d37
+        name: my-java-quarkus
+        resources: {}
+status: {}
