@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   name: devfile-sample-code-with-quarkus-s34w
-  namespace: shebert-tenant
 spec:
   replicas: 1
   selector: {}
